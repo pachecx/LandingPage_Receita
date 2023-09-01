@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-family: 'Source Serif Pro', sans-serif;
+    font-size: 62.5%;
+}
+
+body{
+    background: #FFFFFF;
+    color: #A54328;
+    font-size: 1.6rem;
+    padding: 3.7rem;
+}
+
+main{
+    margin: auto;
+    max-width: 42.5rem;
+}
+
+.overview img{
+    width: 100%;
+    margin: 4.7rem auto;
+}
+
+.overview h1,
+.details h1{
+    font-size: 2.8rem;
+    text-align: center;
+}
+
+.details h1{
+    margin: 3.4rem auto 3.6rem;
+    width: 100%;
+}
+
+.details span{
+    font-weight: bold;
+}
+
+.details ul, ol{
+    padding-left: 3.5rem;
+    margin-bottom: 1.6rem;
+}
+
+.details button{
+    border-radius: 8px;
+    background: #A54328;
+    padding: 1.1rem;
+    color: #FFF;
+    cursor: pointer;
+    margin-top: 1.7rem;
+    border: none;
+}
+
+.details button:hover{
+    background: #dd5b36;
+    transition: .4s;
+    transform: scale(1.1);
+}
+
+@media (min-width: 780px){
+   
+    body{
+        height: 100vh;
+        width: 100%;
+        background-image: url(./assets/old-paper-texture-beige-craft-cardboard-vintage-canvas-surface\ 1.png);
+    }
+
+    main{
+        display: flex;
+        max-width: 1149px;
+        max-height: 642px;
+        margin: 50px auto;
+        gap: 189px;
+    }
+
+    .overview{
+        width: 435px;
+        max-height: 642px;
+    }
+
+    .details h1{
+        margin: 0  auto 51px;
+        text-align: left;
+    }
+
+    
+}
